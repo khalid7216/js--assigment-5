@@ -58,11 +58,17 @@ var ticketPrice = 600;
 var totalCost = ticketPrice * 5;
 document.write("Total cost to buy 5 tickets to a movie is " + totalCost + " PKR<br><br>");
 
-var tableNum = 4;
-for (var i = 1; i <= 10; i++) {
-  document.write(tableNum + " x " + i + " = " + (tableNum * i) + "<br>");
-}
-document.write("<br>");
+document.write("4 x 1 = " + (4 * 1) + "<br>");
+document.write("4 x 2 = " + (4 * 2) + "<br>");
+document.write("4 x 3 = " + (4 * 3) + "<br>");
+document.write("4 x 4 = " + (4 * 4) + "<br>");
+document.write("4 x 5 = " + (4 * 5) + "<br>");
+document.write("4 x 6 = " + (4 * 6) + "<br>");
+document.write("4 x 7 = " + (4 * 7) + "<br>");
+document.write("4 x 8 = " + (4 * 8) + "<br>");
+document.write("4 x 9 = " + (4 * 9) + "<br>");
+document.write("4 x 10 = " + (4 * 10) + "<br>");
+
 
 var celsius = 25;
 var fahrenheit = (celsius * 9 / 5) + 32;
